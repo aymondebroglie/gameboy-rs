@@ -11,7 +11,7 @@ impl CPU {
     fn operation(&mut self, opcode: u16) -> u32 {
         match opcode {
             0x00 => 1,
-            0x01 => 3,
+            0x01 => ,
             other => panic!("Instruction {:2X} is not implemented", other),
         }
     }
